@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+project(native)
+set(CMAKE_CXX_STANDARD 14)
+include_directories(/Users/zhoukongcheng/.node-gyp/12.6.0/include/node)
+include_directories(../node_modules/node-addon-api)
+link_directories(../node_modules/node-addon-api)
+add_executable(native main.cpp)

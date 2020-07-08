@@ -1,0 +1,20 @@
+@mixin drag {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+@mixin no-drag {
+  -webkit-app-region: no-drag;
+}
+
+@mixin content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$background-color: #333544;
+
+$navigation-background-color: #313341;
+$navigation-width: 60px;
+$header-navigation-height: 50px;
